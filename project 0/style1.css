@@ -1,0 +1,125 @@
+#divName {
+    margin:20px auto;
+    text-align:center;
+    border-radius: 50px;
+    padding: 20px; 
+    width: 200px;
+    height: 15px; 
+    display:flex;
+    justify-content: center;   
+}  
+
+.navbar{
+    list-style-type: none;
+    display : flex;
+    flex-direction:row ;
+    justify-content: flex-end;
+    
+}
+.navbar-item{
+    margin : 10px;
+}
+a:link{
+    color : black;
+    text-decoration:none;
+}
+.img{
+    display:flex;
+    justify-content: center;
+}
+.img1{
+    display:flex;
+    justify-content:left;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+.round{
+    display:flex;
+    z-index: 3;
+    position: relative;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: 584;
+    max-width: 584px;
+    margin-top: 30px;
+}
+.button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+.h1_adv{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+.adv_box{
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+.line{
+    border-bottom: 1px solid #ebebeb;
+}
+.text_adv{
+    font-size: 16px;
+    color: #333;
+}
+.div_adv{
+    margin: 50px;
+}
+.input_adv{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left{
+    width : 200px;
+}
+.right{
+    width: 385px;
+}
+.p_adv{
+    font-size: 13px;
+    color: #222;
+    vertical-align: middle;
+}
+.btn-adv{
+    
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    width : 580px;
+    margin : 20px;
+}
+
+
